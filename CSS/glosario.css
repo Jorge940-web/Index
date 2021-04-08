@@ -1,0 +1,99 @@
+.titulo{
+       text-align: center;
+       background-color: #8EBABD;
+       font-family: fantasy;
+       color: aliceblue;
+}
+.tabla{
+       text-align: left;
+        width: 900px;
+       margin: 20px auto;
+       border-collapse: collapse;
+       font-family: sans-serif;
+}
+
+:root{
+    --color1: #42BEED;
+    --color2: #45F5F7;
+    --color3: #4AE0B8;
+    --color4: #45F795;
+    --color5: #48F064;
+}
+  
+header{
+    widows: 100px;
+    height: 80px;
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.nav{
+    list-style: none;
+    
+     display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.logo{
+    font-family: fantasy;
+    font-size: 30px;
+    width: 1300px;
+    height: 40px;
+    color: white;
+}
+
+footer{
+    font-family: fantasy;
+    font-size: 15px;
+    background-color: #32706A;
+} 
+
+.lista{
+    font-family: fantasy;
+    position: relative;
+    left: 100px;
+    width: 600px;
+}
+
+p{
+    font-family: sans-serif;    
+}
+
+li{
+    font-family: sans-serif;
+    position: relative;
+    left: 100px;    
+}
+
+.def{
+    position: relative;
+    left: 200px;    
+}
+
+
+
+
+table{
+    margin: 150px auto;
+    width: 600px;
+    padding: 20px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+body{
+    background-color:var(--color3)
+}

@@ -1,0 +1,49 @@
+header{
+    widows: 100px;
+    height: 80px;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    
+}
+
+.nav{
+    list-style: none;
+    
+     display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.logo{
+    font-family: fantasy;
+    font-size: 30px;
+    width: 1300px;
+    height: 30px;
+    color: white;
+}
+
+body{
+    background:url(../img/fondo.jpg)
+
+}
+
+.leyenda{
+    font-family: fantasy;
+    color: white;
+    padding: 0px 400px 0px 400px;
+    text-align: center;
+}
+
+.btn_banner{
+    font-family: fantasy;
+    color: white;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 10px 50px 10px 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+    
+}
